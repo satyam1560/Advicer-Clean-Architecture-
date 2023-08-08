@@ -8,6 +8,7 @@ class ErrorMessage extends StatelessWidget {
   Widget build(BuildContext context) {
     final themeData = Theme.of(context);
     return Column(
+      mainAxisSize: MainAxisSize.min,
       children: [
         const Icon(
           Icons.error,
